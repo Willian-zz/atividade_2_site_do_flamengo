@@ -5,8 +5,8 @@
 body {
     margin: 0;
     font-family: system-ui, Arial, sans-serif;
-    background: #0b0f1a;
-    color: #e5e7eb;
+    background: #14090c; /* fundo mais escuro avermelhado */
+    color: #f3f4f6;
     line-height: 1.5;
 }
 
@@ -19,8 +19,8 @@ body {
 .header,
 .section,
 .footer {
-    background: rgba(0, 0, 0, 0.55);
-    border: 1px solid rgba(229, 231, 235, 0.25);
+    background: rgba(30, 10, 14, 0.85); /* vinho escuro */
+    border: 1px solid rgba(255, 80, 80, 0.25);
     border-radius: 12px;
     padding: 14px;
     margin-bottom: 12px;
@@ -28,12 +28,12 @@ body {
 
 .title {
     margin: 0 0 6px;
-    color: #4aa3ff;
+    color: #ff3b3b; /* vermelho destaque */
 }
 
 .subtitle {
     margin: 0 0 10px;
-    color: #cbd5e1;
+    color: #d1d5db;
 }
 
 .nav {
@@ -44,14 +44,15 @@ body {
     display: inline-block;
     margin-right: 8px;
     padding: 8px 10px;
-    background: #0b3d91;
+    background: #8b0000; /* vermelho escuro */
     color: #ffffff;
     text-decoration: none;
     border-radius: 10px;
+    transition: 0.3s;
 }
 
 .nav-link:hover {
-    background: #1158cc;
+    background: #c1121f; /* vermelho mais vibrante */
 }
 
 .section-title {
@@ -61,7 +62,7 @@ body {
 
 .text {
     margin: 0 0 12px;
-    color: #cbd5e1;
+    color: #d1d5db;
 }
 
 .cards {
@@ -72,8 +73,8 @@ body {
 
 .card {
     width: 310px;
-    background: #0b3d91;
-    border: 2px solid rgba(255, 255, 255, 0.35);
+    background: #b11226; /* vermelho médio elegante */
+    border: 2px solid rgba(255, 255, 255, 0.25);
     border-radius: 12px;
     padding: 14px;
 }
@@ -85,7 +86,7 @@ body {
 
 .card-text {
     margin: 0;
-    color: #eaf2ff;
+    color: #ffe5e5; /* leve tom rosado claro */
 }
 
 .list {
@@ -95,19 +96,35 @@ body {
 
 .list li {
     margin: 6px 0;
-    color: #cbd5e1;
+    color: #d1d5db;
 }
 
 .footer-text {
     margin: 0;
-    color: #cbd5e1;
+    color: #d1d5db;
 }
 
 .link {
-    color: #4aa3ff;
+    color: #ff4d4d; /* vermelho claro para links */
     text-decoration: none;
 }
 
 .link:hover {
     text-decoration: underline;
+}
+
+.fixed-help {
+    position: fixed; /* posição fixa, mesmo com rolagem do site */
+    top: 16px;
+    right: 16px;
+    width: 46px;;
+    height: 46px;
+    border-radius: 12px;
+    background: #200c0c;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 900;
+    text-align: center;
+    line-height: 42px;
+    border: 2px solid rgba(255, 0, 0, 0.25);
 }
